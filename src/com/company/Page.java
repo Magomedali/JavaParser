@@ -26,4 +26,8 @@ public abstract class Page{
         }
         return this.content;
     }
+
+    public Document getContent(){
+        return this.content;
+    }
 }
